@@ -1,0 +1,164 @@
+{
+  "checks": {
+    "core_CEP290_LCA__P23H_spearman": {
+      "actual": -0.049032402061232064,
+      "expected": -0.049032402061232064,
+      "ok": true,
+      "tol": 1e-10
+    },
+    "core_CEP290_LCA__rd10_spearman": {
+      "actual": 0.3057752567970216,
+      "expected": 0.3057752567970216,
+      "ok": true,
+      "tol": 1e-10
+    },
+    "core_CEP290_LCA_fdr_selected": {
+      "actual": 513,
+      "expected": 513,
+      "ok": true
+    },
+    "core_CEP290_LCA_nominal_p05_fc12": {
+      "actual": 3640,
+      "expected": 3640,
+      "ok": true
+    },
+    "core_CEP290_LCA_tested": {
+      "actual": 12265,
+      "expected": 12265,
+      "ok": true
+    },
+    "core_P23H__rd10_spearman": {
+      "actual": 0.08149558861778633,
+      "expected": 0.08149558861778633,
+      "ok": true,
+      "tol": 1e-10
+    },
+    "core_P23H_fdr_selected": {
+      "actual": 0,
+      "expected": 0,
+      "ok": true
+    },
+    "core_P23H_nominal_p05_fc12": {
+      "actual": 876,
+      "expected": 876,
+      "ok": true
+    },
+    "core_P23H_tested": {
+      "actual": 12037,
+      "expected": 12037,
+      "ok": true
+    },
+    "core_author_sizes": {
+      "actual": {
+        "CEP290_LCA": 663,
+        "P23H": 482,
+        "rd10": 160
+      },
+      "expected": {
+        "CEP290_LCA": 663,
+        "P23H": 482,
+        "rd10": 160
+      },
+      "ok": true
+    },
+    "core_common_universe": {
+      "actual": 8645,
+      "expected": 8645,
+      "ok": true
+    },
+    "core_overlap_observed_all3": {
+      "actual": 1,
+      "expected": 1,
+      "ok": true
+    },
+    "core_overlap_observed_ge2": {
+      "actual": 55,
+      "expected": 55,
+      "ok": true
+    },
+    "core_rd10_fdr_selected": {
+      "actual": 0,
+      "expected": 0,
+      "ok": true
+    },
+    "core_rd10_nominal_p05_fc12": {
+      "actual": 235,
+      "expected": 235,
+      "ok": true
+    },
+    "core_rd10_tested": {
+      "actual": 11702,
+      "expected": 11702,
+      "ok": true
+    },
+    "gsea_CEP290_LCA_FDR05_count": {
+      "actual": 3,
+      "expected": 3,
+      "ok": true
+    },
+    "gsea_FDR05_all3_terms": {
+      "actual": [],
+      "expected": [],
+      "ok": true
+    },
+    "gsea_FDR05_ge2_terms": {
+      "actual": [
+        "Lysosome",
+        "Ribosome",
+        "Terpenoid backbone biosynthesis"
+      ],
+      "expected": [
+        "Lysosome",
+        "Ribosome",
+        "Terpenoid backbone biosynthesis"
+      ],
+      "ok": true
+    },
+    "gsea_P23H_FDR05_count": {
+      "actual": 154,
+      "expected": 154,
+      "ok": true
+    },
+    "gsea_common_gene_universe": {
+      "actual": 8644,
+      "expected": 8644,
+      "ok": true
+    },
+    "gsea_kegg_pathways": {
+      "actual": 277,
+      "expected": 277,
+      "ok": true
+    },
+    "gsea_oxphos_human_nes": {
+      "actual": 1.5126779316052013,
+      "expected": 1.5126779316052013,
+      "ok": true,
+      "tol": 1e-10
+    },
+    "gsea_oxphos_p23h_nes": {
+      "actual": 3.531798638903721,
+      "expected": 3.531798638903721,
+      "ok": true,
+      "tol": 1e-10
+    },
+    "gsea_oxphos_rd10_nes": {
+      "actual": 1.729458425505224,
+      "expected": 1.729458425505224,
+      "ok": true,
+      "tol": 1e-10
+    },
+    "gsea_rd10_FDR05_count": {
+      "actual": 2,
+      "expected": 2,
+      "ok": true
+    }
+  },
+  "historical_reference_run": 35546593177,
+  "mapping_mode": "FROZEN_LOCAL_TSV",
+  "notes": [
+    "The historical source run did not store BioMart mapping hashes.",
+    "This verification tests whether the same-day frozen mapping reproduces the central deterministic metrics and pathway counts from the historical successful run.",
+    "Random-list null Monte Carlo summary values are not required to match byte-for-byte because Python set iteration order can alter the deterministic ordering presented to the RNG; observed overlap and mapping universe are checked instead."
+  ],
+  "status": "PASS"
+}

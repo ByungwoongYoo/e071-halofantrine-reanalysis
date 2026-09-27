@@ -1,0 +1,499 @@
+{
+  "scope": "Fresh deposit-byte verification and bounded deterministic rerun, not a new DE model, not exact S7A reproduction, not phenotypic/mechanistic efficacy assessment",
+  "runtime": {
+    "python": "3.12.10",
+    "numpy": "2.5.3",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "requests": "2.34.2"
+  },
+  "source_manifest_sha256": "072c1862954675132c6e7cefed17f02ebdc59d6b6272c54a58405051ea15a666",
+  "source_commit": "cdbda819817b7f1005c7b0dcfa2489468347b10e",
+  "script_sha256": "c518599af04f7ec6200685ebfee0b722b75adc9bbdd70ebfe69d22a1dc532817",
+  "ortholog_map": {
+    "path": "upstream\\02_COORDINATOR\\BIOASSET_DEEP_IP_20260919\\SREP_SUBMISSION_PACKAGE_V1\\ortholog_mapping\\ensembl_one2one_core.tsv",
+    "sha256": "c7564a0813b1b7e1c4ed28f24386e343d42d3fc7493efff99e215ebd31af63f7",
+    "n": 15956,
+    "itpr3_triple": [
+      {
+        "human": "ENSG00000096433",
+        "mouse": "ENSMUSG00000042644",
+        "rat": "ENSRNOG00000052795"
+      }
+    ]
+  },
+  "diagnostics": {
+    "human": {
+      "tested_genes": 12265,
+      "nominal_p05_only": 4086,
+      "nominal_p05_fc12": 3640,
+      "fdr05_fc12": 513,
+      "minimum_adjusted_p": 0.0277398379618432,
+      "BH_from_full_deposited_table_max_abs_difference": 3.3931191190106347e-15,
+      "CPM_vs_deposit_Pearson": 0.9893735664522236,
+      "CPM_vs_deposit_Spearman": 0.9955754343849291,
+      "CPM_vs_deposit_sign_agreement": 0.9860578883000408,
+      "HAL_samples": [
+        "PEN1B.HAL.PA.8e",
+        "PEN1B.HAL.PA.9e",
+        "PEN1B.HAL.PA.9f",
+        "PEN1B.HAL.PB.8e",
+        "PEN1B.HAL.PB.9e"
+      ],
+      "DMSO_samples": [
+        "PEN1B.DMSO.PC.1f",
+        "PEN1B.DMSO.PC.2f",
+        "PEN1B.DMSO.PC.2g",
+        "PEN1B.DMSO.PD.1f",
+        "PEN1B.DMSO.PD.3f"
+      ],
+      "excluded_CPM_samples": [
+        "PEN8E.DMSO.PA.2b",
+        "PEN8E.DMSO.PA.3b",
+        "PEN8E.DMSO.PA.3c",
+        "PEN8E.DMSO.PB.1a",
+        "PEN8E.DMSO.PB.1b"
+      ]
+    },
+    "rat": {
+      "tested_genes": 12037,
+      "nominal_p05_only": 1125,
+      "nominal_p05_fc12": 876,
+      "fdr05_fc12": 0,
+      "minimum_adjusted_p": 0.0963210146084899,
+      "BH_from_full_deposited_table_max_abs_difference": 3.036459972349803e-14,
+      "CPM_vs_deposit_Pearson": 0.9616007155027028,
+      "CPM_vs_deposit_Spearman": 0.9753384398780126,
+      "CPM_vs_deposit_sign_agreement": 0.9655229708399102,
+      "HAL_samples": [
+        "P23H.F.HAL.30718R",
+        "P23H.F.HAL.30722R",
+        "P23H.F.HAL.30724R",
+        "P23H.F.HAL.30725R"
+      ],
+      "DMSO_samples": [
+        "P23H.F.DMSO.30948R",
+        "P23H.F.DMSO.31102R",
+        "P23H.F.DMSO.31103R",
+        "P23H.F.DMSO.31502R",
+        "P23H.F.DMSO.31503R"
+      ],
+      "excluded_CPM_samples": [
+        "WT.F.NOTREAT.32009L",
+        "WT.F.NOTREAT.32010L"
+      ]
+    },
+    "mouse": {
+      "tested_genes": 11702,
+      "nominal_p05_only": 431,
+      "nominal_p05_fc12": 235,
+      "fdr05_fc12": 0,
+      "minimum_adjusted_p": 0.999987248,
+      "BH_from_full_deposited_table_max_abs_difference": 0.0,
+      "CPM_vs_deposit_Pearson": 0.9162686564064819,
+      "CPM_vs_deposit_Spearman": 0.962942715990989,
+      "CPM_vs_deposit_sign_agreement": 0.9454794052298753,
+      "HAL_samples": [
+        "rd10.F.HAL.set2_F1",
+        "rd10.F.HAL.last_rd10_F1_F",
+        "rd10.F.HAL.last_rd10_F2_F"
+      ],
+      "DMSO_samples": [
+        "rd10.F.DMSO.set2_F4",
+        "rd10.F.DMSO.set2_F5",
+        "rd10.F.DMSO.final_rd10_F1_F"
+      ],
+      "excluded_CPM_samples": [
+        "WT.F.DMSO.set1_F1",
+        "WT.F.DMSO.set1_F2",
+        "WT.F.DMSO.set1_F4",
+        "WT.F.DMSO.set1_5_F3"
+      ]
+    }
+  },
+  "itpr3": [
+    {
+      "species": "human",
+      "gse": "GSE327431",
+      "gene": "ENSG00000096433",
+      "comparison": "disease HAL minus disease DMSO",
+      "logFC": 0.713074227432946,
+      "nominal_p": 0.0019687595483473,
+      "adjusted_p": 0.0490532606178514,
+      "passes_nominal_p05": true,
+      "passes_adjusted_p05": true,
+      "passes_abs_fc12": true,
+      "abs_logFC_rank": 421,
+      "p_rank": 492,
+      "HAL_n": 5,
+      "DMSO_n": 5,
+      "sample_log2_CPM_difference": 0.5711163619711761,
+      "welch_p": 0.054631173709074395,
+      "mannwhitney_two_sided_exact_p": 0.05555555555555555
+    },
+    {
+      "species": "rat",
+      "gse": "GSE327432",
+      "gene": "ENSRNOG00000052795",
+      "comparison": "disease HAL minus disease DMSO",
+      "logFC": -0.951069500171748,
+      "nominal_p": 0.0125011420503297,
+      "adjusted_p": 0.483043123810983,
+      "passes_nominal_p05": true,
+      "passes_adjusted_p05": false,
+      "passes_abs_fc12": true,
+      "abs_logFC_rank": 112,
+      "p_rank": 309,
+      "HAL_n": 4,
+      "DMSO_n": 5,
+      "sample_log2_CPM_difference": -0.9697170672111115,
+      "welch_p": 0.05242173727261267,
+      "mannwhitney_two_sided_exact_p": 0.031746031746031744
+    },
+    {
+      "species": "mouse",
+      "gse": "GSE327434",
+      "gene": "ENSMUSG00000042644",
+      "comparison": "disease HAL minus disease DMSO",
+      "logFC": 0.387282931,
+      "nominal_p": 0.11936289,
+      "adjusted_p": 0.999987248,
+      "passes_nominal_p05": false,
+      "passes_adjusted_p05": false,
+      "passes_abs_fc12": true,
+      "abs_logFC_rank": 315,
+      "p_rank": 1047,
+      "HAL_n": 3,
+      "DMSO_n": 3,
+      "sample_log2_CPM_difference": 0.2753181609959032,
+      "welch_p": 0.21743759744219177,
+      "mannwhitney_two_sided_exact_p": 0.2
+    }
+  ],
+  "pairwise": [
+    {
+      "pair": "human_rat",
+      "n": 9095,
+      "spearman": -0.049032402061232064,
+      "pearson": -0.07320691030548342
+    },
+    {
+      "pair": "human_mouse",
+      "n": 8943,
+      "spearman": 0.3057752567970216,
+      "pearson": 0.24688546553438256
+    },
+    {
+      "pair": "rat_mouse",
+      "n": 9364,
+      "spearman": 0.08149558861778633,
+      "pearson": 0.07299841084108373
+    }
+  ],
+  "S7A_source_regions": {
+    "H_only": 470,
+    "R_only": 379,
+    "M_only": 405,
+    "H_R_only": 16,
+    "R_M_only": 16,
+    "H_M_only": 13,
+    "all3": 1
+  },
+  "S7A_frozen_map_trials": [
+    {
+      "rule": "top500_absfc",
+      "mapping": "frozen one-to-one core; human set not restricted to ortholog universe",
+      "selected_counts": {
+        "human": 500,
+        "rat": 500,
+        "mouse": 500
+      },
+      "mapped_counts": {
+        "human": 500,
+        "rat": 359,
+        "mouse": 351
+      },
+      "ITPR3_selected": {
+        "human": true,
+        "rat": true,
+        "mouse": true
+      },
+      "regions": {
+        "H_only": 456,
+        "R_only": 309,
+        "M_only": 294,
+        "H_R_only": 16,
+        "R_M_only": 29,
+        "H_M_only": 23,
+        "all3": 5
+      },
+      "L1_source_region_distance": 222,
+      "all_three_human_ids": [
+        "ENSG00000096433",
+        "ENSG00000108255",
+        "ENSG00000118271",
+        "ENSG00000119681",
+        "ENSG00000244752"
+      ]
+    },
+    {
+      "rule": "top500_p",
+      "mapping": "frozen one-to-one core; human set not restricted to ortholog universe",
+      "selected_counts": {
+        "human": 500,
+        "rat": 500,
+        "mouse": 500
+      },
+      "mapped_counts": {
+        "human": 500,
+        "rat": 392,
+        "mouse": 436
+      },
+      "ITPR3_selected": {
+        "human": true,
+        "rat": true,
+        "mouse": false
+      },
+      "regions": {
+        "H_only": 475,
+        "R_only": 364,
+        "M_only": 413,
+        "H_R_only": 15,
+        "R_M_only": 13,
+        "H_M_only": 10,
+        "all3": 0
+      },
+      "L1_source_region_distance": 36,
+      "all_three_human_ids": []
+    },
+    {
+      "rule": "top500_abst",
+      "mapping": "frozen one-to-one core; human set not restricted to ortholog universe",
+      "selected_counts": {
+        "human": 500,
+        "rat": 500,
+        "mouse": 500
+      },
+      "mapped_counts": {
+        "human": 500,
+        "rat": 392,
+        "mouse": 436
+      },
+      "ITPR3_selected": {
+        "human": true,
+        "rat": true,
+        "mouse": false
+      },
+      "regions": {
+        "H_only": 475,
+        "R_only": 364,
+        "M_only": 413,
+        "H_R_only": 15,
+        "R_M_only": 13,
+        "H_M_only": 10,
+        "all3": 0
+      },
+      "L1_source_region_distance": 36,
+      "all_three_human_ids": []
+    },
+    {
+      "rule": "fc_top500_absfc",
+      "mapping": "frozen one-to-one core; human set not restricted to ortholog universe",
+      "selected_counts": {
+        "human": 500,
+        "rat": 500,
+        "mouse": 500
+      },
+      "mapped_counts": {
+        "human": 500,
+        "rat": 359,
+        "mouse": 351
+      },
+      "ITPR3_selected": {
+        "human": true,
+        "rat": true,
+        "mouse": true
+      },
+      "regions": {
+        "H_only": 456,
+        "R_only": 309,
+        "M_only": 294,
+        "H_R_only": 16,
+        "R_M_only": 29,
+        "H_M_only": 23,
+        "all3": 5
+      },
+      "L1_source_region_distance": 222,
+      "all_three_human_ids": [
+        "ENSG00000096433",
+        "ENSG00000108255",
+        "ENSG00000118271",
+        "ENSG00000119681",
+        "ENSG00000244752"
+      ]
+    },
+    {
+      "rule": "p_top500_absfc",
+      "mapping": "frozen one-to-one core; human set not restricted to ortholog universe",
+      "selected_counts": {
+        "human": 500,
+        "rat": 500,
+        "mouse": 431
+      },
+      "mapped_counts": {
+        "human": 500,
+        "rat": 374,
+        "mouse": 374
+      },
+      "ITPR3_selected": {
+        "human": true,
+        "rat": true,
+        "mouse": false
+      },
+      "regions": {
+        "H_only": 467,
+        "R_only": 340,
+        "M_only": 343,
+        "H_R_only": 18,
+        "R_M_only": 16,
+        "H_M_only": 15,
+        "all3": 0
+      },
+      "L1_source_region_distance": 109,
+      "all_three_human_ids": []
+    },
+    {
+      "rule": "pfc_top500_absfc",
+      "mapping": "frozen one-to-one core; human set not restricted to ortholog universe",
+      "selected_counts": {
+        "human": 500,
+        "rat": 500,
+        "mouse": 235
+      },
+      "mapped_counts": {
+        "human": 500,
+        "rat": 374,
+        "mouse": 196
+      },
+      "ITPR3_selected": {
+        "human": true,
+        "rat": true,
+        "mouse": false
+      },
+      "regions": {
+        "H_only": 469,
+        "R_only": 345,
+        "M_only": 172,
+        "H_R_only": 18,
+        "R_M_only": 11,
+        "H_M_only": 13,
+        "all3": 0
+      },
+      "L1_source_region_distance": 276,
+      "all_three_human_ids": []
+    },
+    {
+      "rule": "top250_each",
+      "mapping": "frozen one-to-one core; human set not restricted to ortholog universe",
+      "selected_counts": {
+        "human": 500,
+        "rat": 500,
+        "mouse": 500
+      },
+      "mapped_counts": {
+        "human": 500,
+        "rat": 352,
+        "mouse": 340
+      },
+      "ITPR3_selected": {
+        "human": true,
+        "rat": true,
+        "mouse": true
+      },
+      "regions": {
+        "H_only": 456,
+        "R_only": 300,
+        "M_only": 277,
+        "H_R_only": 14,
+        "R_M_only": 33,
+        "H_M_only": 25,
+        "all3": 5
+      },
+      "L1_source_region_distance": 256,
+      "all_three_human_ids": [
+        "ENSG00000096433",
+        "ENSG00000108255",
+        "ENSG00000118271",
+        "ENSG00000119681",
+        "ENSG00000244752"
+      ]
+    },
+    {
+      "rule": "p_top250_each",
+      "mapping": "frozen one-to-one core; human set not restricted to ortholog universe",
+      "selected_counts": {
+        "human": 500,
+        "rat": 500,
+        "mouse": 402
+      },
+      "mapped_counts": {
+        "human": 500,
+        "rat": 384,
+        "mouse": 346
+      },
+      "ITPR3_selected": {
+        "human": true,
+        "rat": true,
+        "mouse": false
+      },
+      "regions": {
+        "H_only": 472,
+        "R_only": 357,
+        "M_only": 327,
+        "H_R_only": 18,
+        "R_M_only": 9,
+        "H_M_only": 10,
+        "all3": 0
+      },
+      "L1_source_region_distance": 115,
+      "all_three_human_ids": []
+    },
+    {
+      "rule": "pfc_top250_each",
+      "mapping": "frozen one-to-one core; human set not restricted to ortholog universe",
+      "selected_counts": {
+        "human": 500,
+        "rat": 500,
+        "mouse": 235
+      },
+      "mapped_counts": {
+        "human": 500,
+        "rat": 384,
+        "mouse": 196
+      },
+      "ITPR3_selected": {
+        "human": true,
+        "rat": true,
+        "mouse": false
+      },
+      "regions": {
+        "H_only": 473,
+        "R_only": 360,
+        "M_only": 181,
+        "H_R_only": 18,
+        "R_M_only": 6,
+        "H_M_only": 9,
+        "all3": 0
+      },
+      "L1_source_region_distance": 263,
+      "all_three_human_ids": []
+    }
+  ],
+  "not_rerun": [
+    "ranked GSEA",
+    "10,000-draw overlap null",
+    "full LOO grid",
+    "source limma fit",
+    "historical all-homolog live mapping"
+  ]
+}

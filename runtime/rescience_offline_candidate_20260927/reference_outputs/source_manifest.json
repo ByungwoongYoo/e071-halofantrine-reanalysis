@@ -1,0 +1,47 @@
+{
+  "retrieved_utc": "2026-09-27T05:30:08.607925+00:00",
+  "sources": {
+    "human": {
+      "deg": {
+        "filename": "GSE327431_CEP290_HAL_DEG_results.csv.gz",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327431/suppl/GSE327431_CEP290_HAL_DEG_results.csv.gz",
+        "bytes": 676145,
+        "sha256": "f993e4943fabdbdde0d217dc2a4efd7fdf5e06d8eb8ca133bd630ad8ddb0f9b5"
+      },
+      "cpm": {
+        "filename": "GSE327431_CEP290_gene_CPM_normalized.csv.gz",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327431/suppl/GSE327431_CEP290_gene_CPM_normalized.csv.gz",
+        "bytes": 1554339,
+        "sha256": "8cd264f247f30044f203de0138f679e19d8737daee8d9f0c1adbd31178273a9f"
+      }
+    },
+    "rat": {
+      "deg": {
+        "filename": "GSE327432_P23H_HAL_DEG_results.csv.gz",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327432/suppl/GSE327432_P23H_HAL_DEG_results.csv.gz",
+        "bytes": 633720,
+        "sha256": "8a5c0991bec0c0342fb11a2bb1f35391ac3fa709c3a44d05739f194237ca7953"
+      },
+      "cpm": {
+        "filename": "GSE327432_P23H_gene_CPM_normalized.csv.gz",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327432/suppl/GSE327432_P23H_gene_CPM_normalized.csv.gz",
+        "bytes": 1119701,
+        "sha256": "8efac324b3715cebb3912c96ffd783e4ff738c0e3f2531de212a9d6c2edb3473"
+      }
+    },
+    "mouse": {
+      "deg": {
+        "filename": "GSE327434_RD10_HAL_DEG_results.csv.gz",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327434/suppl/GSE327434_RD10_HAL_DEG_results.csv.gz",
+        "bytes": 415205,
+        "sha256": "3d5517730d95b7a69adee6091393497b9e013b3f6e30b322fae611c17d0a5f0a"
+      },
+      "cpm": {
+        "filename": "GSE327434_RD10_gene_CPM_normalized.csv.gz",
+        "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327434/suppl/GSE327434_RD10_gene_CPM_normalized.csv.gz",
+        "bytes": 1004603,
+        "sha256": "9f593951d460a621043dec50804bc17baa7770782f31b0657fa7f9f403236e73"
+      }
+    }
+  }
+}

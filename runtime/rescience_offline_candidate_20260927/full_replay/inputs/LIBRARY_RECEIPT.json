@@ -1,0 +1,19 @@
+{
+  "library_name": "KEGG_2021_Human",
+  "retrieved_utc": "2026-09-27T07:09:45.738831+00:00",
+  "url": "https://maayanlab.cloud/Enrichr/geneSetLibrary?mode=text&libraryName=KEGG_2021_Human",
+  "final_url": "https://maayanlab.cloud/Enrichr/geneSetLibrary?mode=text&libraryName=KEGG_2021_Human",
+  "status_code": 200,
+  "raw_sha256": "566763b3402ee1f06612cc48b57e2a0f3f92a9a9e7d1871cc2da9f940e2d609a",
+  "raw_bytes": 209631,
+  "term_count": 320,
+  "normalized_sha256": "58efbbf86113c52b3bde2888ff0f7914e4db257ee6ebe8a0e8f40b1e9fe057a1",
+  "normalization": "Exact GSEApy 1.3.1 download_libraries parsing: strip lines, split tab, gene text before comma, remove empty genes, preserve order",
+  "headers": {
+    "Date": "Sun, 27 Sep 2026 07:09:44 GMT",
+    "Content-Type": "text/plain;charset=UTF-8"
+  },
+  "official_endpoint_documentation": "https://github.com/MaayanLab/backr/blob/main/README.md",
+  "historical_byte_identity": "NOT_ESTABLISHED: no historical raw GMT or hash was retained; same name and matching outputs do not prove identical bytes",
+  "rights_boundary": "Public official download for private reproducibility analysis. No public redistribution or blanket relicensing is performed."
+}

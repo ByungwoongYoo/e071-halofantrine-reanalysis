@@ -1,0 +1,4 @@
+pathway,human_NES,human_FDR,P23H_NES,P23H_FDR,rd10_NES,rd10_FDR
+Oxidative phosphorylation,1.513,0.196,3.532,0.0,1.729,0.432
+Ribosome,2.342,0.00057,3.202,0.0,0.938,1.0
+Circadian entrainment,0.769,0.967,-0.96,0.582,0.918,1.0

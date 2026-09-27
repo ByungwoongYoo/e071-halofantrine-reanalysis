@@ -1,0 +1,293 @@
+{
+  "schemes": {
+    "fc_top500_absfc": {
+      "ITPR3_in": {
+        "human": true,
+        "mouse": true,
+        "rat": true
+      },
+      "L1_source_distance": 139,
+      "all3_ids": [
+        "ENSG00000096433",
+        "ENSG00000108255",
+        "ENSG00000118271",
+        "ENSG00000119681",
+        "ENSG00000142089",
+        "ENSG00000185201",
+        "ENSG00000185885",
+        "ENSG00000244752"
+      ],
+      "mapped_sizes": {
+        "human": 500,
+        "mouse": 397,
+        "rat": 438
+      },
+      "pre_map": {
+        "human": 500,
+        "mouse": 500,
+        "rat": 500
+      },
+      "regions": {
+        "H_M_only": 24,
+        "H_R_only": 18,
+        "H_only": 450,
+        "M_only": 329,
+        "R_M_only": 36,
+        "R_only": 376,
+        "all3": 8
+      }
+    },
+    "p_top250_each": {
+      "ITPR3_in": {
+        "human": true,
+        "mouse": false,
+        "rat": true
+      },
+      "L1_source_distance": 104,
+      "all3_ids": [],
+      "mapped_sizes": {
+        "human": 500,
+        "mouse": 379,
+        "rat": 451
+      },
+      "pre_map": {
+        "human": 500,
+        "mouse": 402,
+        "rat": 500
+      },
+      "regions": {
+        "H_M_only": 10,
+        "H_R_only": 21,
+        "H_only": 469,
+        "M_only": 360,
+        "R_M_only": 9,
+        "R_only": 421,
+        "all3": 0
+      }
+    },
+    "p_top500_absfc": {
+      "ITPR3_in": {
+        "human": true,
+        "mouse": false,
+        "rat": true
+      },
+      "L1_source_distance": 72,
+      "all3_ids": [],
+      "mapped_sizes": {
+        "human": 500,
+        "mouse": 408,
+        "rat": 446
+      },
+      "pre_map": {
+        "human": 500,
+        "mouse": 431,
+        "rat": 500
+      },
+      "regions": {
+        "H_M_only": 15,
+        "H_R_only": 21,
+        "H_only": 464,
+        "M_only": 377,
+        "R_M_only": 16,
+        "R_only": 409,
+        "all3": 0
+      }
+    },
+    "pfc_top250_each": {
+      "ITPR3_in": {
+        "human": true,
+        "mouse": false,
+        "rat": true
+      },
+      "L1_source_distance": 272,
+      "all3_ids": [],
+      "mapped_sizes": {
+        "human": 500,
+        "mouse": 213,
+        "rat": 451
+      },
+      "pre_map": {
+        "human": 500,
+        "mouse": 235,
+        "rat": 500
+      },
+      "regions": {
+        "H_M_only": 9,
+        "H_R_only": 21,
+        "H_only": 470,
+        "M_only": 198,
+        "R_M_only": 6,
+        "R_only": 424,
+        "all3": 0
+      }
+    },
+    "pfc_top500_absfc": {
+      "ITPR3_in": {
+        "human": true,
+        "mouse": false,
+        "rat": true
+      },
+      "L1_source_distance": 266,
+      "all3_ids": [],
+      "mapped_sizes": {
+        "human": 500,
+        "mouse": 213,
+        "rat": 446
+      },
+      "pre_map": {
+        "human": 500,
+        "mouse": 235,
+        "rat": 500
+      },
+      "regions": {
+        "H_M_only": 13,
+        "H_R_only": 21,
+        "H_only": 466,
+        "M_only": 189,
+        "R_M_only": 11,
+        "R_only": 414,
+        "all3": 0
+      }
+    },
+    "top250_each": {
+      "ITPR3_in": {
+        "human": true,
+        "mouse": true,
+        "rat": true
+      },
+      "L1_source_distance": 164,
+      "all3_ids": [
+        "ENSG00000096433",
+        "ENSG00000108255",
+        "ENSG00000118271",
+        "ENSG00000119681",
+        "ENSG00000142089",
+        "ENSG00000185201",
+        "ENSG00000185885",
+        "ENSG00000204388",
+        "ENSG00000244752"
+      ],
+      "mapped_sizes": {
+        "human": 500,
+        "mouse": 387,
+        "rat": 439
+      },
+      "pre_map": {
+        "human": 500,
+        "mouse": 500,
+        "rat": 500
+      },
+      "regions": {
+        "H_M_only": 25,
+        "H_R_only": 16,
+        "H_only": 450,
+        "M_only": 312,
+        "R_M_only": 41,
+        "R_only": 373,
+        "all3": 9
+      }
+    },
+    "top500_absfc": {
+      "ITPR3_in": {
+        "human": true,
+        "mouse": true,
+        "rat": true
+      },
+      "L1_source_distance": 139,
+      "all3_ids": [
+        "ENSG00000096433",
+        "ENSG00000108255",
+        "ENSG00000118271",
+        "ENSG00000119681",
+        "ENSG00000142089",
+        "ENSG00000185201",
+        "ENSG00000185885",
+        "ENSG00000244752"
+      ],
+      "mapped_sizes": {
+        "human": 500,
+        "mouse": 397,
+        "rat": 438
+      },
+      "pre_map": {
+        "human": 500,
+        "mouse": 500,
+        "rat": 500
+      },
+      "regions": {
+        "H_M_only": 24,
+        "H_R_only": 18,
+        "H_only": 450,
+        "M_only": 329,
+        "R_M_only": 36,
+        "R_only": 376,
+        "all3": 8
+      }
+    },
+    "top500_abst": {
+      "ITPR3_in": {
+        "human": true,
+        "mouse": false,
+        "rat": true
+      },
+      "L1_source_distance": 104,
+      "all3_ids": [],
+      "mapped_sizes": {
+        "human": 500,
+        "mouse": 475,
+        "rat": 464
+      },
+      "pre_map": {
+        "human": 500,
+        "mouse": 500,
+        "rat": 500
+      },
+      "regions": {
+        "H_M_only": 12,
+        "H_R_only": 22,
+        "H_only": 466,
+        "M_only": 448,
+        "R_M_only": 15,
+        "R_only": 427,
+        "all3": 0
+      }
+    },
+    "top500_p": {
+      "ITPR3_in": {
+        "human": true,
+        "mouse": false,
+        "rat": true
+      },
+      "L1_source_distance": 104,
+      "all3_ids": [],
+      "mapped_sizes": {
+        "human": 500,
+        "mouse": 475,
+        "rat": 464
+      },
+      "pre_map": {
+        "human": 500,
+        "mouse": 500,
+        "rat": 500
+      },
+      "regions": {
+        "H_M_only": 12,
+        "H_R_only": 22,
+        "H_only": 466,
+        "M_only": 448,
+        "R_M_only": 15,
+        "R_only": 427,
+        "all3": 0
+      }
+    }
+  },
+  "source": {
+    "H_M_only": 13,
+    "H_R_only": 16,
+    "H_only": 470,
+    "M_only": 405,
+    "R_M_only": 16,
+    "R_only": 379,
+    "all3": 1
+  }
+}

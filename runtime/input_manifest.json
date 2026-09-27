@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "project": "e071-halofantrine-retinal-asset-2026",
+  "status": "RELEASE_INPUT_CONTRACT",
+  "scope": "All six-output and full core/GSEA/LOO scientific inputs plus legacy HTML/query adapters; not whole raw reads or original-author raw-count pipeline",
+  "preserved_source_commit": "cdbda819817b7f1005c7b0dcfa2489468347b10e",
+  "rights_boundary": "The outer MIT license applies to project-authored code only. Bundled Ensembl-derived snapshots retain their source terms and attribution. GEO source files and KEGG raw/normalized GMT are not bundled or relicensed; the exact-hash acquisition route does not grant blanket third-party rights.",
+  "runtime_integration": "The selected-source full core/GSEA/LOO pipeline and six-output replay passed in a new isolated Windows/Python 3.12.10 environment using exact cached inputs. All 11 unbundled input targets were subsequently acquired and hash-verified afresh, without a scientific rerun. Source code, calculation rules and expected results are unchanged.",
+  "inputs": [
+    {
+      "id": "geo_human_deg",
+      "targets": [
+        "source_data/GSE327431_CEP290_HAL_DEG_results.csv.gz"
+      ],
+      "bytes": 676145,
+      "sha256": "f993e4943fabdbdde0d217dc2a4efd7fdf5e06d8eb8ca133bd630ad8ddb0f9b5",
+      "format": "gzip",
+      "recipe": "official-bytes",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327431/suppl/GSE327431_CEP290_HAL_DEG_results.csv.gz",
+      "mutable": false,
+      "snapshot_status": "Exact official compressed bytes recovered 2026-09-27; accession URL is not an immutable version URL; fresh official-byte recheck PASS 2026-09-27",
+      "network_check_status": {
+        "checked_at_utc": "2026-09-27T11:27:42.776616+00:00",
+        "status": "FRESH_OFFICIAL_BYTES_SIZE_SHA256_PASS"
+      }
+    },
+    {
+      "id": "geo_human_cpm",
+      "targets": [
+        "source_data/GSE327431_CEP290_gene_CPM_normalized.csv.gz"
+      ],
+      "bytes": 1554339,
+      "sha256": "8cd264f247f30044f203de0138f679e19d8737daee8d9f0c1adbd31178273a9f",
+      "format": "gzip",
+      "recipe": "official-bytes",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327431/suppl/GSE327431_CEP290_gene_CPM_normalized.csv.gz",
+      "mutable": false,
+      "snapshot_status": "Exact official compressed bytes recovered 2026-09-27; accession URL is not an immutable version URL; fresh official-byte recheck PASS 2026-09-27",
+      "network_check_status": {
+        "checked_at_utc": "2026-09-27T11:27:42.776616+00:00",
+        "status": "FRESH_OFFICIAL_BYTES_SIZE_SHA256_PASS"
+      }
+    },
+    {
+      "id": "geo_rat_deg",
+      "targets": [
+        "source_data/GSE327432_P23H_HAL_DEG_results.csv.gz"
+      ],
+      "bytes": 633720,
+      "sha256": "8a5c0991bec0c0342fb11a2bb1f35391ac3fa709c3a44d05739f194237ca7953",
+      "format": "gzip",
+      "recipe": "official-bytes",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327432/suppl/GSE327432_P23H_HAL_DEG_results.csv.gz",
+      "mutable": false,
+      "snapshot_status": "Exact official compressed bytes recovered 2026-09-27; accession URL is not an immutable version URL; fresh official-byte recheck PASS 2026-09-27",
+      "network_check_status": {
+        "checked_at_utc": "2026-09-27T11:27:42.776616+00:00",
+        "status": "FRESH_OFFICIAL_BYTES_SIZE_SHA256_PASS"
+      }
+    },
+    {
+      "id": "geo_rat_cpm",
+      "targets": [
+        "source_data/GSE327432_P23H_gene_CPM_normalized.csv.gz"
+      ],
+      "bytes": 1119701,
+      "sha256": "8efac324b3715cebb3912c96ffd783e4ff738c0e3f2531de212a9d6c2edb3473",
+      "format": "gzip",
+      "recipe": "official-bytes",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327432/suppl/GSE327432_P23H_gene_CPM_normalized.csv.gz",
+      "mutable": false,
+      "snapshot_status": "Exact official compressed bytes recovered 2026-09-27; accession URL is not an immutable version URL; fresh official-byte recheck PASS 2026-09-27",
+      "network_check_status": {
+        "checked_at_utc": "2026-09-27T11:27:42.776616+00:00",
+        "status": "FRESH_OFFICIAL_BYTES_SIZE_SHA256_PASS"
+      }
+    },
+    {
+      "id": "geo_mouse_deg",
+      "targets": [
+        "source_data/GSE327434_RD10_HAL_DEG_results.csv.gz"
+      ],
+      "bytes": 415205,
+      "sha256": "3d5517730d95b7a69adee6091393497b9e013b3f6e30b322fae611c17d0a5f0a",
+      "format": "gzip",
+      "recipe": "official-bytes",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327434/suppl/GSE327434_RD10_HAL_DEG_results.csv.gz",
+      "mutable": false,
+      "snapshot_status": "Exact official compressed bytes recovered 2026-09-27; accession URL is not an immutable version URL; fresh official-byte recheck PASS 2026-09-27",
+      "network_check_status": {
+        "checked_at_utc": "2026-09-27T11:27:42.776616+00:00",
+        "status": "FRESH_OFFICIAL_BYTES_SIZE_SHA256_PASS"
+      }
+    },
+    {
+      "id": "geo_mouse_cpm",
+      "targets": [
+        "source_data/GSE327434_RD10_gene_CPM_normalized.csv.gz"
+      ],
+      "bytes": 1004603,
+      "sha256": "9f593951d460a621043dec50804bc17baa7770782f31b0657fa7f9f403236e73",
+      "format": "gzip",
+      "recipe": "official-bytes",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327434/suppl/GSE327434_RD10_gene_CPM_normalized.csv.gz",
+      "mutable": false,
+      "snapshot_status": "Exact official compressed bytes recovered 2026-09-27; accession URL is not an immutable version URL; fresh official-byte recheck PASS 2026-09-27",
+      "network_check_status": {
+        "checked_at_utc": "2026-09-27T11:27:42.776616+00:00",
+        "status": "FRESH_OFFICIAL_BYTES_SIZE_SHA256_PASS"
+      }
+    },
+    {
+      "id": "index_GSE327431",
+      "targets": [
+        "source_data/GSE327431_suppl_index.html"
+      ],
+      "bytes": 1034,
+      "sha256": "b1e5a0c8ca21aafed7d0126b6d245f16885de7f3263574676de02a21090ec58d",
+      "recipe": "official-bytes",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327431/suppl/",
+      "mutable": true,
+      "snapshot_status": "Historical HTML discovery adapter required by unchanged scripts; non-scientific input; exact current HTML not guaranteed",
+      "network_check_status": {
+        "checked_at_utc": "2026-09-27T11:27:42.776616+00:00",
+        "status": "FRESH_OFFICIAL_BYTES_SIZE_SHA256_PASS"
+      }
+    },
+    {
+      "id": "index_GSE327432",
+      "targets": [
+        "source_data/GSE327432_suppl_index.html"
+      ],
+      "bytes": 1014,
+      "sha256": "057a926016c3684fa7f2425a7616ee3486139d38d8c6658da66bdfe98d9186e0",
+      "recipe": "official-bytes",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327432/suppl/",
+      "mutable": true,
+      "snapshot_status": "Historical HTML discovery adapter required by unchanged scripts; non-scientific input; exact current HTML not guaranteed",
+      "network_check_status": {
+        "checked_at_utc": "2026-09-27T11:27:42.776616+00:00",
+        "status": "FRESH_OFFICIAL_BYTES_SIZE_SHA256_PASS"
+      }
+    },
+    {
+      "id": "index_GSE327434",
+      "targets": [
+        "source_data/GSE327434_suppl_index.html"
+      ],
+      "bytes": 1014,
+      "sha256": "86774ea4afe3392784ba2cd3b1383e25868be55ea39f3e5beb8ed6dc9d9a3bb2",
+      "recipe": "official-bytes",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE327nnn/GSE327434/suppl/",
+      "mutable": true,
+      "snapshot_status": "Historical HTML discovery adapter required by unchanged scripts; non-scientific input; exact current HTML not guaranteed",
+      "network_check_status": {
+        "checked_at_utc": "2026-09-27T11:27:42.776616+00:00",
+        "status": "FRESH_OFFICIAL_BYTES_SIZE_SHA256_PASS"
+      }
+    },
+    {
+      "id": "biomart_query_xml",
+      "targets": [
+        "source_data/ensembl_all_homolog_query_20260927.xml"
+      ],
+      "bytes": 376,
+      "sha256": "06e972de8ccfe8984430b4906ad56ad31f198002aa10f9428cc0513ea97487c6",
+      "recipe": "query-xml",
+      "snapshot_status": "Authored query contract; no database contents"
+    },
+    {
+      "id": "biomart_all",
+      "targets": [
+        "source_data/ensembl_all_homolog_query_result_20260927.tsv"
+      ],
+      "bytes": 9437728,
+      "sha256": "057871f32a87b4f83d925684394bf2032f28c4a7bfba7e5e379ff63f1653a6df",
+      "recipe": "biomart-all",
+      "url": "https://www.ensembl.org/biomart/martservice",
+      "mutable": true,
+      "max_response_bytes": 16777216,
+      "snapshot_status": "2026-09-27 response exact cache exists; date-pinned endpoint NOT_RECOVERED; live regeneration may drift"
+    },
+    {
+      "id": "biomart_core",
+      "targets": [
+        "full_replay/02_COORDINATOR/BIOASSET_DEEP_IP_20260919/SREP_SUBMISSION_PACKAGE_V1/ortholog_mapping/ensembl_one2one_core.tsv",
+        "upstream/02_COORDINATOR/BIOASSET_DEEP_IP_20260919/SREP_SUBMISSION_PACKAGE_V1/ortholog_mapping/ensembl_one2one_core.tsv"
+      ],
+      "bytes": 877597,
+      "sha256": "c7564a0813b1b7e1c4ed28f24386e343d42d3fc7493efff99e215ebd31af63f7",
+      "recipe": "biomart-core",
+      "url": "https://www.ensembl.org/biomart/martservice",
+      "mutable": true,
+      "max_response_bytes": 25165824,
+      "canonical_lf_sha256": "83077ff1f2852adc5307f36a13598b06b957167ec3864ebf97045d9128d98ed2",
+      "snapshot_status": "2026-09-21 filtered snapshot; no date-pinned download recovered. Live query plus preserved filter must pass canonical LF hash before explicit CRLF materialization. Live regeneration NOT_TESTED."
+    },
+    {
+      "id": "biomart_gsea",
+      "targets": [
+        "full_replay/02_COORDINATOR/BIOASSET_DEEP_IP_20260919/SREP_SUBMISSION_PACKAGE_V1/ortholog_mapping/ensembl_one2one_gsea.tsv"
+      ],
+      "bytes": 978546,
+      "sha256": "e23d59e92168af7e34d2e0817f22e9bf5c4da4a6591c77c43bb620a15122b43f",
+      "recipe": "biomart-gsea",
+      "url": "https://www.ensembl.org/biomart/martservice",
+      "mutable": true,
+      "max_response_bytes": 25165824,
+      "canonical_lf_sha256": "bf6358010f6a04f1f4b0a00078d394e89038e438a0a3b1a17413bf936699ffbb",
+      "snapshot_status": "2026-09-21 filtered snapshot; no date-pinned download recovered. Live query plus preserved filter must pass canonical LF hash before explicit CRLF materialization. Live regeneration NOT_TESTED."
+    },
+    {
+      "id": "kegg_raw",
+      "targets": [
+        "full_replay/inputs/KEGG_2021_Human.download_20260927.raw.gmt"
+      ],
+      "bytes": 209631,
+      "sha256": "566763b3402ee1f06612cc48b57e2a0f3f92a9a9e7d1871cc2da9f940e2d609a",
+      "recipe": "official-bytes",
+      "url": "https://maayanlab.cloud/Enrichr/geneSetLibrary?mode=text&libraryName=KEGG_2021_Human",
+      "mutable": true,
+      "snapshot_status": "Official 2026-09-27 bytes recovered; same library name is not a version pin or historical identity; fresh official-byte re-fetch PASS 2026-09-27",
+      "network_check_status": {
+        "checked_at_utc": "2026-09-27T11:27:42.776616+00:00",
+        "status": "FRESH_OFFICIAL_BYTES_SIZE_SHA256_PASS"
+      }
+    },
+    {
+      "id": "kegg_normalized",
+      "targets": [
+        "full_replay/inputs/KEGG_2021_Human.gseapy_normalized.gmt"
+      ],
+      "bytes": 209951,
+      "sha256": "58efbbf86113c52b3bde2888ff0f7914e4db257ee6ebe8a0e8f40b1e9fe057a1",
+      "recipe": "normalize-gmt",
+      "depends_on": "kegg_raw",
+      "snapshot_status": "Derived with existing GSEApy parsing and explicit Windows CRLF; source data not included",
+      "network_check_status": {
+        "checked_at_utc": "2026-09-27T11:27:42.776616+00:00",
+        "status": "DERIVED_FROM_FRESH_EXACT_RAW_GMT_PASS"
+      }
+    }
+  ],
+  "network_check_status": {
+    "checked_at_utc": "2026-09-27T11:27:42.776616+00:00",
+    "status": "PASS_ALL_11_UNBUNDLED_INPUT_TARGETS_EXACT",
+    "official_requests": 10,
+    "derived_normalized_gmt_targets": 1,
+    "ensembl_redownloaded": false,
+    "future_byte_stability": "NOT_GUARANTEED",
+    "historical_gmt_identity": "NOT_ESTABLISHED",
+    "analysis_rerun": false
+  }
+}
