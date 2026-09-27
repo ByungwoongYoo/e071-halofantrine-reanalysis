@@ -1,0 +1,100 @@
+# ReScience C manuscript metadata. Publication fields await assignment.
+{
+  "title": "[¬Re] Halofantrine protects photoreceptors in multiple models of retinal degeneration: transcriptomic analyses",
+  "authors": [
+    {
+      "name": "Byungwoong Yoo",
+      "orcid": "0009-0002-1797-3100",
+      "email": "yoonge3@gmail.com",
+      "affiliations": "1,*"
+    }
+  ],
+  "affiliations": [
+    {
+      "code": 1,
+      "name": "Independent Researcher",
+      "address": ""
+    }
+  ],
+  "keywords": "replication, retinal degeneration, transcriptomics, Python",
+  "code": [
+    {
+      "url": "https://github.com/ByungwoongYoo/e071-halofantrine-reanalysis/tree/4a1b699d46e0895ab99d980faa61c45dc20c61f2"
+    },
+    {
+      "doi": ""
+    },
+    {
+      "swh": ""
+    }
+  ],
+  "data": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE327435"
+    },
+    {
+      "doi": ""
+    }
+  ],
+  "replication": [
+    {
+      "cite": "Kim M, et al. Halofantrine protects photoreceptors in multiple models of retinal degeneration. Research Square, version 1, 13 May 2026."
+    },
+    {
+      "bib": ""
+    },
+    {
+      "url": "https://doi.org/10.21203/rs.3.rs-9511432/v1"
+    },
+    {
+      "doi": "10.21203/rs.3.rs-9511432/v1"
+    }
+  ],
+  "abstract": "Kim et al. reported halofantrine-associated photoreceptor protection in three inherited retinal degeneration models and partial similarity in their transcriptomic responses. We examined the computational evidence accompanying that result, using the deposited differential-expression tables and normalized expression matrices for human CEP290-LCA retinal organoids, P23H rats and rd10 mice. Nine reconstructions of the gene-selection and mapping procedure did not reproduce the seven regions of Figure S7A and its sole three-model intersection. The deposited rd10 Itpr3 result had nominal p = 0.119, leaving unresolved which test supports the source statement of significance in all three models. These are gaps in recovering the specified analyses, not evidence that no valid implementation exists. Separately, multiple-testing control, one-to-one orthologue comparisons, leave-one-out analyses, overlap randomization and ranked pathway enrichment characterized the sensitivity of the transcriptomic interpretation. Human–rd10 effect concordance remained positive across all tested single-sample deletions; correlations involving P23H were weaker and crossed zero. Oxidative phosphorylation had positive enrichment scores in all three models, although only P23H met the chosen FDR threshold. The reanalysis identifies the source details needed to reproduce the two transcriptomic figures and provides quantitative robustness results without reassessing the reported phenotypic rescue.",
+  "bibliography": "",
+  "type": "Replication",
+  "domain": "Computational Biology",
+  "language": "Python",
+  "review": [
+    {
+      "url": ""
+    }
+  ],
+  "contributors": [],
+  "dates": [
+    {
+      "received": ""
+    },
+    {
+      "accepted": ""
+    },
+    {
+      "published": ""
+    }
+  ],
+  "article": [
+    {
+      "number": ""
+    },
+    {
+      "doi": ""
+    },
+    {
+      "url": ""
+    }
+  ],
+  "journal": [
+    {
+      "name": "ReScience C"
+    },
+    {
+      "issn": "2430-3658"
+    },
+    {
+      "volume": ""
+    },
+    {
+      "issue": ""
+    }
+  ]
+}
